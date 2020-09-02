@@ -1,15 +1,21 @@
-# Milestone4Solution
-M4 working bashscript draft for checking pipelines
-<br>
-To get the build status of a pipeline in Azure follow the format: https://dev.azure.com/{organization}/{project}/_apis/build/status/{definition}?api-version=6.0-preview.1
-Documentation can be found here: https://docs.microsoft.com/en-us/rest/api/azure/devops/build/status/get?view=azure-devops-rest-6.0
+# Milestone 4
+The Lodging API is now complete! All it needs is a CI/CD pipeline to facilitate integrating future features that could be added to it!
+
+## Goal
+Your goal as a developer is to come up with a working pipeline that:
+1. Builds the given solution
+2. Tests it
+3. Runs a code analysis on the solution
+4. Deploys the webapp to the world wide web
+
+* Note that you don't need to edit the given solution in any way. You only need to create the pipeline.
+
+### Hint
+A sample pipeline.yml file has been provided to base your pipeline on. This sample pipeline is still incomplete!
 
 ## Files
-### test.sh
-This is the draft bash script for testing if the pipeline builds. Includes logic that checks pipeline yml file to see if it actually has the necessary commands. For now, it's just build.
-
-### azure-pipelines.yml
-Test yml file to check if the the bash script works. Will need to be removed for actual batch, the bash script would need to change the pipeline file the bash script is testing. 
+### pipeline.yml
+Sample pipeline that builds the application. 
 
 ### creds.txt
 This is where you put in your pipeline credentials. First line must be the organization, second line the project, and the third line will be the definition id of your pipeline.
