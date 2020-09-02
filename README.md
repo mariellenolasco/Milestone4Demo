@@ -11,7 +11,7 @@ Your goal as a developer is to come up with a working pipeline that:
 * Note that you don't need to edit the given solution in any way. You only need to create the pipeline.
 
 ### Hint
-A sample pipeline.yml file has been provided to base your pipeline on. This sample pipeline is still incomplete!
+A sample pipeline.yml file has been provided to base your pipeline on. This sample pipeline is still incomplete (and unusable)!
 
 ## Files
 ### pipeline.yml
